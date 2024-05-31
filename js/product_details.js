@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to load product details based on index
     function loadProductDetails(index, data) {
-        const product = data[parseInt(index) + 1];
+        const product = data[parseInt(index)];
         if (product) {
             const image_path = `data/catalogue/images/${product[1]}`;
             const title = product[2];
