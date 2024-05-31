@@ -68,7 +68,7 @@ hr {
 /*Main Sections */
 .main_content {
     margin-block: 100px;
-    margin-inline: 3vw;
+    margin-inline: 6vw;
     padding: 3vw;
     background-color: var(--secondary-bg-color);
     text-align: center;

@@ -39,9 +39,17 @@
     }
 
     .main_content {
-        margin-inline: 0;
+        margin-inline: 0; !important;
         border-radius: 0;
-        padding-inline: 6vw;
+        padding-inline: 0; !important;
+
+    }
+
+    .prev {
+        opacity: 0
+    }
+    .next {
+        opacity: 0
     }
 
     .responsive_add {
