@@ -1,0 +1,73 @@
+
+/* BUTTONS */
+.button_1, .button_1b, .button_special {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 5px 10px; /* Adjust padding as needed */
+    margin: 5px;
+    min-width: 80px; /* Adjust the value according to your needs */
+    white-space: nowrap; /* Prevent text from wrapping */
+    line-height: 1.75;
+    transition: transform 0.2s ease, background-color 0.5s ease, color 0.5s ease; /* Apply transition to transform, background-color, and color properties */
+}
+
+.button_1:hover {
+    transform: scale(1.05); /* Scale up by 5% on hover */
+    background-color: black; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+.button_1b:hover {
+    transform: scale(1.05); /* Scale up by 5% on hover */
+    background-color: red; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+.button_special:hover {
+    background-color: black;
+    color: white;
+    animation: wiggle 2.5s linear;
+}
+
+.nav-link {
+    margin-inline: 20px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    transition: transform 0.2s ease, background-color 0.5s ease, color 0.5s ease;
+    max-width: 100px;
+
+}
+
+.nav-link:hover {
+    transform: scale(1.10);
+    background-color: #e6e8f1; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+    border-radius: 5px;
+}
+
+
+
+@keyframes wiggle {
+    0%, 7% {
+        transform: rotateZ(0);
+    }
+    15% {
+        transform: rotateZ(-15deg);
+    }
+    20% {
+        transform: rotateZ(10deg);
+    }
+    25% {
+        transform: rotateZ(-10deg);
+    }
+    30% {
+        transform: rotateZ(6deg);
+    }
+    35% {
+        transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+        transform: rotateZ(0);
+    }
+}
