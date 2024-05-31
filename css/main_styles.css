@@ -38,7 +38,7 @@ body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
     font-weight: lighter;
-    font-family: "Lato", sans-serif;
+    font-family: 'Helvetica Neue 5', Helvetica, Arial, sans-serif;
     position: relative; /* Add relative positioning to the body */
 }
 
