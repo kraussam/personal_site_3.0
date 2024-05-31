@@ -12,6 +12,7 @@
 
 }
 
+
 .intro_content, .history_content {
     margin-block: 50px;
     margin-inline: 3vw;
@@ -33,12 +34,19 @@
 
 }
 
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('data/fonts/Helvetica-Light-05.woff2') format('woff2');
+}
+
+
 body {
     /* Default font */
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
     font-weight: lighter;
-    font-family: 'Helvetica Neue 5', Helvetica, Arial, sans-serif;
+    font-family: 'CustomFont', sans-serif;
     position: relative; /* Add relative positioning to the body */
 }
 
