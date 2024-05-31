@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="d-flex">
                 <span> ${sub_title} </span>
                 <span class="px-2 hover">${itemA_HTML}  </span> 
-                <span class="hover"><a href="product_details.html?index=${index}" target="_blank"><img style="width: 20px" src="media/icons/share.png" alt="Share"></a></span>
+                <span class="hover"><a href="project_details.html?index=${index}" target="_blank"><img style="width: 20px" src="media/icons/share.png" alt="Share"></a></span>
             </div>
             <p>${desc_short} </p>
         </div>
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
         detailButtons.forEach((button, index) => {
             button.addEventListener('click', () => {
                 // Redirect to the product details page with the corresponding index in the query string
-                window.location.href = `product_details.html?index=${index}`;
+                window.location.href = `project_details.html?index=${index}`;
             });
         });
     }
