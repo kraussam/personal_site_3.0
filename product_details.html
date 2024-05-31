@@ -1,0 +1,67 @@
+<!-- product_details.html -->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main_styles.css">
+    <link rel="stylesheet" href="css/user_bar_styles.css">
+    <link rel="stylesheet" href="css/column_styles.css">
+    <link rel="stylesheet" href="css/responsive_styles.css">
+    <link rel="stylesheet" href="css/button_styles.css">
+
+    <script src="js/product_details.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+    <title>Product Details</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg" style="padding-inline: 3vw; padding-block: 15px; background-color: white;">
+    <div class="container-fluid" style="padding-inline: 0;">
+        <a class="navbar-brand" style="font-weight: 300; font-size: 2em; font-family: 'American Typewriter',serif;" href="#">AK. </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product_catalogue.html">Projects</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Other
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<section class="sub_content" style="margin: 0;">
+    <div class="row" id="productDetailsContainer"> <!-- Product details will be loaded here dynamically --></div>
+</section>
+
+
+<footer>
+    2023 Andreas Krauss. All rights reserved. <span class="responsive_remove" style="margin-left: 5px">  No part of this site may be reproduced without written permission. </span>
+    <a href="product_catalogue.html" class="button_1" style="margin-left: auto; text-align: center; background-color: black; color: white; min-width: 180px"> return to catalog <img src="media/icons/go-back.png" alt="" style="width: 30px; margin: 0; filter: invert(100%)"> </a>
+    </a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4px;
+    margin-right: 2px;
+}
+
+
+.col, .col3 {
+    flex-grow: 1;
+    flex-basis: 25%;
+    padding: 4px;
+}
+
+.col {
+    max-width: 25%;
+}
+
+
+.col2, .col2_lined_left, .col2_lined_right {
+    max-width: 50%;
+    padding: 0 3vw;
+    text-align: left;
+}
+
+.col2_lined_left, .col2_lined_right {
+    border: 1px solid darkgray;
+    box-sizing: border-box; /* Include border width in the element's total width */
+    padding-block: 5px;
+    padding-inline: 10px;
+
+
+}
+
+.col2_lined_right {
+    margin-left: -1px;
+
+}
+
+.col2_lined_left {
+    font-weight: 700;
+
+}
+
+.col2 img {
+    vertical-align: middle;
+    width: 100%;
+    transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.col2 .img_container {
+    margin-block: 20px
+}
+
+
+
+.col img {
+    vertical-align: middle;
+    width: 100%;
+    transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.img_container {
+    position: relative;
+    display: inline-block; /* Ensure inline-block for positioning */
+    margin-block: 20px;
+}
+
+.product_details_button {
+    position: absolute;
+    top: 8px; /* Adjust the top position as needed */
+    right: 8px; /* Adjust the right position as needed */
+    z-index: 1; /* Ensure the icon appears above other content */
+    opacity: 0.80;
+    width: 30px;
+    height: 26px;
+    transition: transform 0.3s ease; /* Add transition property */
+}
+
+/* Scale up the icon on hover */
+.product_details_button:hover {
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+}
+
+.product_cell .price {
+    font-size: 2.5em;
+    line-height: 1;
+
+}
+
+
+.product_details .price {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.product_details img{
+    justify-content: center;
+    width: 50%;
+}
+.product_cell .discount_price {
+    margin-left: 40px;
+    font-size: 1.5em;
+    text-decoration: line-through;
+    color: grey;
+}
+.product_details p {
+    vertical-align: text-top;
+
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1200px) {
+    .col {
+        flex: 50%;
+        max-width: 50%;
+    }
+    .column_odd {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .column_odd {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+.img_container2 {
+    position: relative;
+    display: inline-block; /* Ensure inline-block for positioning */
+}
+
+.img_container2:hover .caption-text2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.social-item {
+    position: absolute;
+    filter: invert(100%);
+    top: 8px; /* Adjust the top position as needed */
+    right: 8px; /* Adjust the right position as needed */
+    z-index: 1; /* Ensure the icon appears above other content */
+    opacity: 0.80;
+    width: 30px;
+    transition: transform 0.3s ease; /* Add transition property for smooth hover effect */
+}
+
+.social-item:hover {
+    transform: scale(1.2); /* Enlarge the icon on hover */
+}
+
+.caption-text2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(24, 24, 24, 0.6); /* Adjust the background color and opacity */
+    color: #000000;
+    text-align: center;
+    padding: 8px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s; /* Updated transition property */
+}
+
+/* Responsive layout - makes a single column layout */
+@media screen and (max-width: 800px) {
+    .col2, .col2_lined_left, .col2_lined_right  {
+        flex: 100%;
+        max-width: 100%;
+
+    }
+    .col2_lined_left {
+        margin-left: -1px;
+        margin-bottom: -1px;
+    }
+
+    .row_lined{
+        margin-inline: 3vw;
+
+    }
+
+}
