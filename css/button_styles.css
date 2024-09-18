@@ -1,6 +1,6 @@
 
 /* BUTTONS */
-.button_1, .button_1b, .button_special {
+.button_1, .button_1b, .button_special, .button_1c {
     display: inline-block;
     background-color: white;
     color: black;
@@ -10,6 +10,11 @@
     white-space: nowrap; /* Prevent text from wrapping */
     line-height: 1.75;
     transition: transform 0.2s ease, background-color 0.5s ease, color 0.5s ease; /* Apply transition to transform, background-color, and color properties */
+}
+
+.button_1c {
+    color: white;
+    background-color: black;
 }
 
 .button_none {
