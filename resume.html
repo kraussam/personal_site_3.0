@@ -1,7 +1,7 @@
-<!-- project_details.html -->
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,14 +12,15 @@
     <link rel="stylesheet" href="css/column_styles.css">
     <link rel="stylesheet" href="css/responsive_styles.css">
     <link rel="stylesheet" href="css/button_styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-
-    <script src="js/product_details.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="js/slides.js" defer></script>
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 
 
-    <title>Product Details</title>
+    <title>AK</title>
+    <link rel="icon" type="image/png" href="media/icons/favicon.png">
 </head>
 <body>
 
@@ -57,18 +58,30 @@
 </nav>
 
 
-
-
-<section class="sub_content" style="margin: 0;">
-    <div class="row" id="productDetailsContainer"> <!-- Product details will be loaded here dynamically --></div>
+<section class="sub_content">
+    <h5>FEATURED</h5>
+    <div style="font-size: 0; line-height: 1.25;">
+        <span class="button_none" style="background-color: black; color: white; border-radius: 40px; font-size: calc(2rem + 1.5vw);">KRAUSS</span>
+        <span class="button_none" style="background-color: white; color: black; border-radius: 40px; font-size: calc(2rem + 1.5vw);">REVIEW</span>
+    </div>
+    <p style="margin-top: 40px">After helping friends with their resumes, I decided to extend my support to others. Let's get your resume in top shape! </p>
+    <p> Want to learn more about me? Visit my <a href="index.html" class="button_1">home page</a> </p>
 </section>
 
 
+
+</section>
+
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/andres_krauss/30min" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+
 <footer>
     2023 Andreas Krauss. All rights reserved. <span class="responsive_remove" style="margin-left: 5px">  No part of this site may be reproduced without written permission. </span>
-    <a href="projects.html" class="button_1" style="margin-left: auto; text-align: center; background-color: black; color: white; min-width: 180px"> return to catalog <img src="media/icons/go-back.png" alt="" style="width: 30px; margin: 0; filter: invert(100%)"> </a>
-    </a>
+    <a href="index.html" class="button_1" style="margin-left: auto; text-align: center; background-color: black; color: white"> Home</a>
 </footer>
+
 
 </body>
 </html>

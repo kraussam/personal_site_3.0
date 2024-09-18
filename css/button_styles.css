@@ -12,6 +12,12 @@
     transition: transform 0.2s ease, background-color 0.5s ease, color 0.5s ease; /* Apply transition to transform, background-color, and color properties */
 }
 
+.button_none {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
 .button_1:hover {
     transform: scale(1.05); /* Scale up by 5% on hover */
     background-color: black; /* Change background color on hover */
@@ -34,16 +40,19 @@
     margin-inline: 20px;
     padding: 5px 10px;
     border-radius: 2px;
-    transition: transform 0.2s ease, background-color 0.5s ease, color 0.5s ease;
+    transition: transform 0.2s ease, background-color 0.5s ease, color 0.5s ease, border-radius 0.5s ease;
     max-width: 100px;
-
+    display: inline-block; /* Ensures proper layout */
+    text-align: center; /* Center the text */
+    overflow: hidden; /* Prevent visual overflow issues */
+    transform-origin: center; /* Keeps the scale centered */
 }
 
 .nav-link:hover {
-    transform: scale(1.10);
+    transform: scale(1.10); /* Scales the element */
     background-color: #e6e8f1; /* Change background color on hover */
     color: black; /* Change text color on hover */
-    border-radius: 5px;
+    border-radius: 5px; /* Optionally adjust border-radius */
 }
 
 
