@@ -13,7 +13,7 @@
 }
 
 
-.intro_content, .history_content {
+.intro_content {
     margin-block: 50px;
     margin-inline: 3vw;
     text-align: center;
@@ -21,10 +21,18 @@
 }
 
 .history_content {
+    margin-block: 50px;
+    margin-inline: 3vw;
     text-align: left;
     background-color: white;
     padding: 3vw;
 }
+
+.history_content_container {
+    width: 75%;
+    line-height: 2;
+}
+
 .history_content p {
     margin-block: 1em;
 }
@@ -109,6 +117,7 @@ footer {
 p {
     margin-block: 1em;
     font-size: 1.1em;
+    line-height: 2;
 }
 
 h1 {

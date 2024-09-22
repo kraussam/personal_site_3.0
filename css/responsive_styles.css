@@ -14,7 +14,21 @@
     /* Mobile styles */
     .navbar {
         justify-content: center; /* Center links on mobile */
+        padding-block: 0px !important;
+    }
 
+    .body {
+        font-weight: bolder;
+    }
+
+
+    .history_content {
+        justify-content: center;
+        text-align: start;
+    }
+
+    .history_content_container{
+        width: 100%;
     }
     .column-1-3 {
         display: none;
@@ -24,9 +38,8 @@
         display: block;
         margin-bottom: 10px;
         margin-inline: 10px;
+        text-align: start;
     }
-
-
 
     .responsive_remove {
         display: none;
@@ -38,11 +51,15 @@
         padding-inline: 6vw;
     }
 
-    .main_content {
-        margin-inline: 0; !important;
-        border-radius: 0;
-        padding-inline: 0; !important;
 
+    .history_content {
+        justify-content: center;
+        text-align: start;
+
+    }
+
+    .margin_add {
+        margin-top: 40px !important;
     }
 
     .prev {
@@ -54,7 +71,6 @@
 
     .responsive_add {
         display: block;
-        margin-left: 10px;
     }
 
 

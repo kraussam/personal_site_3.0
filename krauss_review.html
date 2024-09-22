@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
+
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6LFQRL6MNJ"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-6LFQRL6MNJ');
     </script>
 
@@ -27,8 +27,6 @@
     <script src="js/slides.js" defer></script>
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 
-
-
     <title>AK</title>
     <link rel="icon" type="image/png" href="media/icons/favicon.png">
 </head>
@@ -37,28 +35,20 @@
 
 <nav class="navbar navbar-expand-lg" style="padding-inline: 6vw; padding-block: 25px; background-color: white;">
     <div class="container-fluid" style="padding-inline: 0;">
-        <a class="navbar-brand" style="font-weight: 300; font-size: 2em; font-family: 'American Typewriter',serif;" href="#">AK. </a>
+        <a class="navbar-brand" style="font-weight: 300; font-size: 2em; font-family: 'American Typewriter',serif;" href="#">AK.</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0;">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="krauss_review.html">New!</a>
-                </li>
+                <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="krauss_review.html">New!</a></li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Other
-                    </a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Other</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Newsletter (WIP)</a></li>
-                        <li><a class="dropdown-item" href="#">Coming Soon! </a></li>
+                        <li><a class="dropdown-item" href="#">Coming Soon!</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Maybe One Day.</a></li>
                     </ul>
@@ -68,42 +58,57 @@
     </div>
 </nav>
 
-<div> <img src="media/krauss_review/banner_google_forms.png" style="width:100%"> <div class="caption_text">Third version of this website! Better than ever.</div> </div>
+<!-- Banners -->
+<div class="responsive_remove">
+    <img src="media/krauss_review/banner_google_forms.png" style="width: 100%;">
+    <div class="caption_text">Third version of this website! Better than ever.</div>
+</div>
+<div class="responsive_add">
+    <img src="media/krauss_review/banner_phone.png" style="width: 100%; margin-top: 20px;">
+    <div class="caption_text">Third version of this website! Better than ever.</div>
+</div>
 
-
-<section class="history_content" style="display: flex; justify-content: center; text-align: start !important; background-color: rgba(0,0,0,0); margin-top: 0px; padding-top: 0px;">
-    <div style="width: 75%; line-height: 2">
-        <h1>Sounds Cool! But what exactly is this...</h1>
-        <p style="margin-top: 40px">Need help with your <span class="in_line_big">resume?</span> I’m here to assist you! <img src="media/icons/checkmark.png" style="height: 30px"><img src="media/icons/checkmark.png" style="height: 30px"></p>
-        <p>After helping friends with their resumes, I’m excited to offer my support to you. We can meet online to discuss your resume in detail and work together to make it ready for your job applications. Book a quick, completely <span class="in_line_big">free</span> 15-minute session below for a focused review and valuable tips — no subscription, account, no-nothing.</p>
-        <p>Want to make an appointment? <span class="button_special" style="background-color: white"> <script id="setmore_script" type="text/javascript" src="https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js"></script><a style="float: none; color: black;" id="Setmore_button_iframe"  href="https://booking.setmore.com/scheduleappointment/0c687315-86e5-4b6c-98d0-c50856fe5eb4"><img> book it here!</a>
-        </span> Want your resume/cover letter reviewed? <a href="https://forms.gle/Hiqjy4ba5FQH81j7A" class="button_special">Upload it here!</a></p>
+<!-- Resume Section -->
+<section class="history_content margin_add" style="display: flex; justify-content: center; text-align: start !important; background-color: rgba(0,0,0,0); margin-top: 0px; padding-top: 0px;">
+    <div class="history_content_container">
+        <h1 class="responsive_remove">Sounds Cool! But what exactly is this...</h1>
+        <h1 class="responsive_add">Cool! Tell me more</h1>
+        <p>Need help with your <span class="in_line_big">resume?</span> I’m here to assist you! <img src="media/icons/checkmark.png" style="height: 30px;"><img src="media/icons/checkmark.png" style="height: 30px;"></p>
+        <p class="responsive_remove">After helping friends with their resumes, I’m excited to offer my support to you. We can meet online to discuss your resume in detail and work together to make it ready for your job applications. Book a quick, completely <span class="in_line_big">free</span> 15-minute session below for a focused review and valuable tips — no subscription, account, no-nothing.</p>
+        <p>Want to make an appointment?
+            <span class="button_special" style="background-color: white;">
+                <script id="setmore_script" type="text/javascript" src="https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js"></script>
+                <a style="float: none; color: black;" id="Setmore_button_iframe" href="https://booking.setmore.com/scheduleappointment/0c687315-86e5-4b6c-98d0-c50856fe5eb4"><img> book it here!</a>
+            </span>
+            <span class="responsive_remove"> Want your resume/cover letter reviewed? <a href="https://forms.gle/Hiqjy4ba5FQH81j7A" class="button_special">Upload it here!</span></a>
+        </p>
+        <p class="responsive_add">Want your resume/cover letter reviewed? <a href="https://forms.gle/Hiqjy4ba5FQH81j7A" class="button_special">Upload it here!</p></a>
     </div>
 </section>
 
-<section class="history_content">
-    <div style="width: 75%; line-height: 2">
+<!-- History Section -->
+<section class="history_content responsive_remove">
+    <div class="history_content_container">
         <h1>How Krauss Review Got Started</h1>
         <p>How do I land an internship? What’s more important — soft skills or technical know-how? What do I put on my resume? If you’re a commerce student, you’ve probably asked these a million times—at least that has been my experience at the University of Toronto Mississauga.</p>
-        <p>After attending  <a href="projects.html" class="button_special_b">(and now hosting)</a>case competitions, networking events, and resume workshops, I’ve picked up a few tricks on resume writing. Still not convinced? Well, I scored an internship with KPMG in U.S. corporate tax — so I must be doing something right!</p>
-        <p>After helping friends, family, and  <a href="projects.html" class="button_special_b">other students</a>, I figured it was time to put all this knowledge in one place. At Krauss Review, I offer straightforward advice to help you create a resume that highlights your strengths and stands out to employers.</p>
+        <p>After attending <a href="projects.html" class="button_special_b">(and now hosting)</a> case competitions, networking events, and resume workshops, I’ve picked up a few tricks on resume writing. Still not convinced? Well, I scored an internship with KPMG in U.S. corporate tax — so I must be doing something right!</p>
+        <p>After helping friends, family, and <a href="projects.html" class="button_special_b">other students</a>, I figured it was time to put all this knowledge in one place. At Krauss Review, I offer straightforward advice to help you create a resume that highlights your strengths and stands out to employers.</p>
     </div>
 </section>
 
+<!-- Catch Section -->
 <section class="history_content" style="display: flex; justify-content: flex-end; text-align: right !important; background-color: rgba(0,0,0,0);">
-    <div style="width: 75%; line-height: 2">
+    <div class="history_content_container">
         <h1>But Hey! What's the Catch?</h1>
-        <p>Well, considering you read this far, I'm glad you asked! There is no catch. No subscriptions, hidden fees, favors, or sign-ups required. This work of mine is pro bono for now—my goal is to provide genuine support without any strings attached.</p>
-        <p>If you find my tips helpful and want to show appreciation, you’re welcome to <a href="https://buymeacoffee.com/andreskrauss" class="button_special">buy me a coffee </a> (donate) if you'd like. It’s entirely optional and goes a long way in supporting my efforts.</p>
+        <p><span class="responsive_remove"> considering you read this far, I'm glad you asked! </span> There's no catch. No subscriptions, hidden fees, favors, or sign-ups required. <span class="responsive_remove">This work of mine is pro bono for now—my goal is to provide genuine support without any strings attached.</span></p>
+        <p>If you find my tips helpful and want to show appreciation, you’re welcome to <a href="https://buymeacoffee.com/andreskrauss" class="button_special">buy me a coffee.</a> <span class="responsive_remove">This is entirely optional and goes a long way in supporting my efforts.</span></p>
     </div>
 </section>
 
+<!-- Footer -->
 <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="andreskrauss" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting!" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
 <footer>
-    2023 Andreas Krauss. All rights reserved. <span class="responsive_remove" style="margin-left: 5px">  No part of this site may be reproduced without written permission. </span>
-    <a href="index.html" class="button_1" style="margin-left: auto; text-align: center; background-color: black; color: white"> Home</a>
-</footer>
-
-
-</body>
-</html>
+    2023 Andres Krauss. All rights reserved. <span class="responsive_remove" style="margin-left: 5px;">No part of this site may be reproduced without written permission.</span>
+    <a href="index.html" class="button_1" style="margin-left: auto; text-align: center; background-color: black; color: white;">Home</a>
+</footer
