@@ -17,9 +17,6 @@
         padding-block: 0px !important;
     }
 
-    p {
-        font-weight: 600 !important;
-    }
 
 
     .history_content {
@@ -73,6 +70,10 @@
         display: block;
     }
 
+}
 
-
+@media (max-width: 350px) {
+    body {
+        font-weight: bolder !important;
+    }
 }
