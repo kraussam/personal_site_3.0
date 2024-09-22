@@ -17,8 +17,8 @@
         padding-block: 0px !important;
     }
 
-    .body {
-        font-weight: bolder;
+    p {
+        font-weight: 600 !important;
     }
 
 
