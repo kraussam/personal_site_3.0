@@ -1,6 +1,6 @@
 
 /* BUTTONS */
-.button_1, .button_1b, .button_special, .button_1c {
+.button_1, .button_special, .button_special_b{
     display: inline-block;
     background-color: white;
     color: black;
@@ -12,9 +12,15 @@
     transition: transform 0.2s ease, background-color 0.5s ease, color 0.5s ease; /* Apply transition to transform, background-color, and color properties */
 }
 
-.button_1c {
-    color: white;
-    background-color: black;
+.button_special_b {
+    background-color: #dde0e4;
+    color: black;
+}
+
+.button_special_b:hover {
+    transform: scale(1.05); /* Scale up by 5% on hover */
+    background-color: rgba(234, 234, 234, 0.65); /* Change background color on hover */
+    color: black; /* Change text color on hover */
 }
 
 .button_none {
@@ -29,16 +35,15 @@
     color: white; /* Change text color on hover */
 }
 
-.button_1b:hover {
-    transform: scale(1.05); /* Scale up by 5% on hover */
-    background-color: red; /* Change background color on hover */
-    color: white; /* Change text color on hover */
-}
-
 .button_special:hover {
     background-color: black;
     color: white;
     animation: wiggle 2.5s linear;
+}
+
+.button_special_b:hover {
+    animation: wiggle 2.5s linear;
+    background-color: #dde0e4
 }
 
 .nav-link {
@@ -84,4 +89,48 @@
     40%, 100% {
         transform: rotateZ(0);
     }
+}
+
+
+.button-89 {
+   --b: 3px;   /* border thickness */
+   --s: .45em; /* size of the corner */
+   --color: #373B44;
+
+   padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+   color: var(--color);
+   --_p: var(--s);
+   background:
+           conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+           var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+   transition: .3s linear, color 0s, background-color 0s;
+   outline: var(--b) solid #0000;
+   outline-offset: .6em;
+   font-size: 16px;
+
+   border: 0;
+
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+}
+
+.in_line_big {
+
+    font-size: 1.75em;
+    margin-inline: 5px;
+    line-height: 0.5;
+
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.button-89:active {
+    background: var(--color);
+    color: #fff;
 }
