@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const productDetailsHTML = `
                 <div class="container product_details">
-                    <section class="sub_content mb-0">
+                    <section class="main_content mb-0">
                         <div class="row text-start">
                             <!-- Left Column -->
                             <div class="col-md-6">
