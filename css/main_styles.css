@@ -15,8 +15,8 @@
 body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif; /* Use Open Sans as the default font */
+    font-weight: 400; /* You can adjust the weight as needed */
     position: relative;
 }
 
@@ -67,7 +67,7 @@ h5 {
     font-size: 9vw;
     line-height: 1em;
     margin-bottom: 20px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .ec_text {
@@ -123,8 +123,3 @@ a {
     text-decoration: none;
 }
 
-/* Custom Font */
-@font-face {
-    font-family: 'CustomFont';
-    src: url('data/fonts/Helvetica-Light-05.woff2') format('woff2');
-}
