@@ -54,7 +54,7 @@ body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
     font-weight: lighter;
-    font-family: 'CustomFont', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     position: relative; /* Add relative positioning to the body */
 }
 

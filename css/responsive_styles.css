@@ -71,9 +71,3 @@
     }
 
 }
-
-@media (max-width: 350px) {
-    body {
-        font-weight: bolder !important;
-    }
-}
