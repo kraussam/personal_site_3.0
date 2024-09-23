@@ -30,53 +30,26 @@
 
     <script src="js/slides.js" defer></script>
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/navbar.js"></script>
+
 
     <title>AK</title>
     <link rel="icon" type="image/png" href="media/icons/favicon.png">
 </head>
 
 <body>
+<div id="navbarContainer"></div>
 
-<nav class="navbar navbar-expand-lg" style="padding-inline: 6vw; padding-block: 25px; background-color: white;">
-    <div class="container-fluid" style="padding-inline: 0;">
-        <a class="navbar-brand" style="font-weight: 300; font-size: 2em; font-family: 'American Typewriter',serif;" href="#">AK. </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="krauss_review.html">New!</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Other
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Newsletter (WIP)</a></li>
-                        <li><a class="dropdown-item" href="#">Coming Soon! </a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Maybe One Day.</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+<section class="intro_content">
+    <div class="title">ANDRES KRAUSS</div>
+    <p>Hi! I'm a fan of <a href="projects.html" class="button_1">public speaking</a> <a href="projects.html" class="button_1">music</a> and <a href="projects.html" class="button_1">hard work</a>. University of Toronto BCom Finance 2026 <img src="media/icons/UofT.png" style="width: 25px; margin-top: -40px; margin-inline: 5px"> and proudly Canadian<img src="media/icons/canada1.png" style="width: 35px; margin-top: -35px; margin-left: 10px"></p>
+    <p>Let's Connect! Send an email to <a href="projects.html" class="button_special">info@andreaskrauss.ca</a></p>
+    <div class="social_bar">
+        <a href="https://www.instagram.com/andreas.krauss.04/"><img src="media/icons/instagram.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/andreskrauss/"><img src="media/icons/linkedin.png" alt=""></a>
+        <a href="mailto:andreas@andreas.krauss.ca"><img src="media/icons/email.png" alt=""></a>
     </div>
-</nav>
-
-    <section class="intro_content">
-        <div class="title"> ANDRES KRAUSS </div>
-        <p> Hi! I'm a fan of<a href="projects.html" class="button_1">public speaking</a> <a href="projects.html" class="button_1">music</a> and <a href="projects.html" class="button_1">hard work</a>. University of Toronto BCom Finance 2026 <img src="media/icons/UofT.png" style="width: 25px; margin-top: -40px; margin-inline: 5px"> and   proudly Canadian<img src="media/icons/canada1.png" style="width: 35px; margin-top: -35px; margin-left: 10px"></p>
-        <p> Lets Connect! Send an email to <a href="projects.html" class="button_special"> info@andreaskrauss.ca</a>
-
-        <div class="social_bar"> <a href="https://www.instagram.com/andreas.krauss.04/"><img src="media/icons/instagram.png" alt=""></a> <a href="https://www.linkedin.com/in/andreskrauss/"><img src="media/icons/linkedin.png" alt=""></a> <a href="mailto:andreas@andreas.krauss.ca"><img src="media/icons/email.png" alt=""></a> </div>
-    </section>
+</section>
 
     <section class="main_content responsive_remove" style="background-color: white; padding-inline: 3vw">
         <h5> FEATURED</h5>
@@ -110,37 +83,37 @@
             <div class="row justify-content-center">
                 <div class="col-md-3 mb-4">
                     <img src="media/icons/iba.png" class="img-fluid text-center" alt="">
-                    <div class="text-start fs-4 fw-bolder mt-3">Innovative Business Association (IBA)</div>
+                    <h4 class="text-start  mt-3">Innovative Business Association (IBA)</h4>
                     <div class="text-start fs-6">Student Society | 2022-Present</div>
                     <ul>
-                        <li class="text-start fs-4">Vice President Conferences </li>
-                        <li class="text-start fs-4">Director Conferences </li>
+                        <li class="text-start ">Vice President Conferences </li>
+                        <li class="text-start ">Director Conferences </li>
                     </ul>
                 </div>
 
                 <div class="col-md-3 mb-4 ">
                     <img src="media/icons/ib_logo.png" class="img-fluid" alt="">
-                    <div class="text-start fs-4 fw-bolder mt-3"> International Baccalaureate (IB) </div>
+                    <h4 class="text-start  mt-3"> International Baccalaureate (IB) </h4>
                     <div class="text-start fs-6"> Diploma Program | 2017-2021</div>
                     <ul>
-                        <li class="text-start fs-4">GPA: Amazing </li>
+                        <li class="text-start ">GPA: Amazing </li>
                     </ul>
                 </div>
                 <div class="col-md-3 mb-4 ">
                     <img src="media/icons/UofT.png" class="img-fluid" style="width: 40%" alt="">
-                    <div class="text-start fs-4 fw-bolder mt-3">University of Toronto (UofT)</div>
+                    <h4 class="text-start  mt-3">University of Toronto (UofT)</h4>
                     <div class="text-start fs-6">Bachelor of Commerce | 2022-2026</div>
                     <ul>
-                        <li class="text-start fs-4">Finance & Accounting Specialist. </li>
-                        <li class="text-start fs-4"> Economics Major. </li>
+                        <li class="text-start ">Finance & Accounting Specialist. </li>
+                        <li class="text-start "> Economics Major. </li>
                     </ul>
                 </div>
                 <div class="col-md-3 mb-4 ">
                     <img src="media/icons/circle.png" class="img-fluid" alt="">
-                    <div class="text-start fs-4 fw-bolder mt-3">Mystery Internship</div>
+                    <h4 class="text-start  mt-3">Mystery Internship</h4>
                     <div class="text-start fs-6">(Hint: also blue) | Summer 2025</div>
                     <ul>
-                        <li class="text-start fs-4">No More Hints </li>
+                        <li class="text-start ">No More Hints </li>
                     </ul>
                 </div>
             </div>
@@ -152,45 +125,45 @@
             <div class="row justify-content-center">
                 <div class="col-md-2 mb-4">
                     <img src="media/icons/ace.png" class="img-fluid" alt="">
-                    <div class="text-start fs-4 fw-bolder mt-3">Formerly DECA</div>
+                    <h4 class="text-start  mt-3">Formerly DECA</h4>
                     <div class="text-start fs-6">Student Society | 2022-Present</div>
                     <ul>
-                        <li class="text-start fs-4">VP Events </li>
-                        <li class="text-start fs-4">Director Events</li>
+                        <li class="text-start ">VP Events </li>
+                        <li class="text-start ">Director Events</li>
                     </ul>
                 </div>
                 <div class="col-md-2 mb-4">
                     <img src="media/icons/rsm.png" class="img-fluid" alt="">
-                    <div class="text-start fs-4 fw-bolder mt-3">Ready Set Market!</div>
+                    <h4 class="text-start  mt-3">Ready Set Market!</h4>
                     <div class="text-start fs-6">IBA Competition Event | 2022-Present</div>
                     <ul>
-                        <li class="text-start fs-4">Co-chair </li>
+                        <li class="text-start ">Co-chair </li>
                     </ul>
                 </div>
                 <div class="col-md-2 mb-4">
                     <img src="media/icons/utm_cap.png" class="img-fluid" alt="">
-                    <div class="text-start fs-4 fw-bolder mt-3"> UTM Capital </div>
+                    <h4 class="text-start  mt-3"> UTM Capital </h4>
                     <div class="text-start fs-6"> Student-led Fund | 2022-Present</div>
                     <ul>
-                        <li class="text-start fs-4">Equity Analyst </li>
+                        <li class="text-start ">Equity Analyst </li>
                     </ul>
                 </div>
                 <div class="col-md-2 mb-4">
                     <img src="media/icons/cvitp.png" class="img-fluid" alt="">
-                    <div class="text-start fs-4 fw-bolder mt-3"> CRA Personal-Tax Program  </div>
+                    <h4 class="text-start  mt-3"> CRA Personal-Tax Program  </h4>
                     <div class="text-start fs-6"> Volunteering | 2023-Present</div>
                     <ul>
-                        <li class="text-start fs-4">Volunteer Tax Filer  </li>
-                        <li class="text-start fs-4">'23 &'24 Seasons </li>
+                        <li class="text-start ">Volunteer Tax Filer  </li>
+                        <li class="text-start ">'23 &'24 Seasons </li>
                     </ul>
                 </div>
                 <div class="col-md-2 mb-4">
                     <img src="media/icons/krauss_logo.png" class="img-fluid" alt="">
-                    <div class="text-start fs-4 fw-bolder mt-3"> Krauss Plastics Inc. </div>
+                    <h4 class="text-start  mt-3"> Krauss Plastics Inc. </h4>
                     <div class="text-start fs-6"> Manufacturing | 2023-Present</div>
                     <ul>
-                        <li class="text-start fs-4">Assistant Manager  </li>
-                        <li class="text-start fs-4">Warehouse Associate </li>
+                        <li class="text-start ">Assistant Manager  </li>
+                        <li class="text-start ">Warehouse Associate </li>
                     </ul>
                 </div>
             </div>

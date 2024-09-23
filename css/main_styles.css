@@ -51,7 +51,7 @@ body {
     margin-block: 0px;
 }
 h1 {
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
 }
 
 .sub_content h1 {
@@ -122,4 +122,5 @@ footer {
 a {
     text-decoration: none;
 }
+
 

@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
                         
             <div class="d-flex">
-                <span class="fs-2 fw-bolder">${title}</span>
+                <span class="fs-2">${title}</span>
                 <span class="fs-6 ms-auto">${date}</span>
             </div>
             

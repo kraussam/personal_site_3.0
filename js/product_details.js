@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <!-- Left Column -->
                             <div class="col-md-6">
                                 <div class="d-flex">
-                                    <span class="fs-1 fw-bolder">${title}</span>
+                                    <span class="fs-1">${title}</span>
                                     <span class="fs-3 ms-auto">${date}</span>
                                 </div>
                                 <div class="fs-6 mb-3">${sub_title}</div>
