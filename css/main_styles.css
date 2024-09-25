@@ -63,7 +63,7 @@ h2 {
 
 /* Title and Text Styles */
 .title {
-    font-size: clamp(3rem, 12vw - 2rem, 10rem); /* Minimum size, scalable, maximum size */
+    font-size: clamp(3rem, 12vw - 2rem, 12rem); /* Minimum size, scalable, maximum size */
     margin-bottom: 20px;
     font-weight: 500;
     line-height: 1;
