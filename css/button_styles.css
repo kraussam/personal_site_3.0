@@ -13,13 +13,13 @@
 }
 
 .button_special_b {
-    background-color: #dde0e4;
-    color: black;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .button_special_b:hover {
     transform: scale(1.05); /* Scale up by 5% on hover */
-    background-color: rgba(234, 234, 234, 0.65); /* Change background color on hover */
+    background-color: rgb(255, 255, 255); /* Change background color on hover */
     color: black; /* Change text color on hover */
 }
 

@@ -16,6 +16,9 @@
         justify-content: center; /* Center links on mobile */
         padding-block: 10px;
     }
+    .social_bar a img{
+        width: 50px;
+    }
 
     .intro_content p {
         line-height: 3;
