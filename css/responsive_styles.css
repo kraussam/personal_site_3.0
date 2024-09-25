@@ -53,7 +53,7 @@
         display: none;
     }
     .title {
-        font-size: 11vw !important;
+        font-size: (3rem, 5vw - 2rem, 5rem)
     }
     .centered_content {
         padding-inline: 6vw;
