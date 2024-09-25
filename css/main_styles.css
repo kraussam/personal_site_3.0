@@ -22,52 +22,51 @@ body {
 
 /* Layout Containers */
 .sub_content,
-.main_content,
-.intro_content {
-    margin-inline: 3vw;
+.main_content {
     text-align: center;
     align-items: center;
-    padding-block: 5rem;
-    margin-block: 5rem;
-}
+    padding: clamp(2rem, 5vw, 3.5rem);
+    margin: clamp(2rem, 5vw, 3.5rem);
 
-.intro_content {
-    padding-block: 0;
 }
 
 .sub_content {
-    background-color: white;
-    padding: 3vw;
-    text-align: left;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
+.sub_content h1 {
+    border-bottom: 2px solid black;
+}
+
 
 .width_container {
     width: 75%;
-    line-height: 2;
 }
 
 /* Heading Styles */
 .navbar-brand {
     margin-block: 0px;
 }
+
 h1 {
-    margin-bottom: 3rem;
+    margin-bottom: clamp(2rem, 5vw, 3.5rem);
+    font-size: clamp(3rem, 5vw - 2rem, 5rem); /* Minimum size, scalable, maximum size */
 }
 
-.sub_content h1 {
-    border-bottom: 2px solid black;
+h2 {
+    font-size: clamp(3rem, 5vw - 2rem, 5rem);
 }
 
-h5 {
-    font-size: 1.15em; /* Keep h5 static */
-}
+
 
 /* Title and Text Styles */
 .title {
-    font-size: 9vw;
-    line-height: 1em;
+    font-size: clamp(3rem, 12vw - 2rem, 10rem); /* Minimum size, scalable, maximum size */
     margin-bottom: 20px;
     font-weight: 500;
+    line-height: 1;
 }
 
 .ec_text {
@@ -77,13 +76,8 @@ h5 {
 }
 
 p {
-    margin-block: 1em;
     font-size: 1.1em;
     line-height: 2;
-}
-
-.fs-4 {
-    font-size: calc(1.0rem + .3vw)!important; /* Responsive font size */
 }
 
 /* Media and Interactive Elements */
@@ -93,11 +87,6 @@ iframe {
     border: 0;
     aspect-ratio: 16 / 9;
 }
-
-hr {
-    margin-block: 20px;
-}
-
 .hover {
     transition: transform 0.2s ease;
 }
@@ -113,9 +102,7 @@ footer {
     padding-block: 40px;
     background-color: white;
     color: black;
-    display: flex;
-    text-align: center;
-    align-items: center;
+    text-align: start;
 }
 
 /* Link Styles */
