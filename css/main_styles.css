@@ -11,6 +11,9 @@
     --accent-color-B: #484848;
 }
 
+html {
+    font-size: 20px;
+}
 /* Body Styles */
 body {
     background-color: var(--primary-bg-color);
@@ -52,28 +55,24 @@ body {
 
 h1 {
     margin-bottom: clamp(2rem, 5vw, 3.5rem);
-    font-size: clamp(3rem, 5vw - 2rem, 5rem); /* Minimum size, scalable, maximum size */
+    font-size: clamp(2.25rem, 5vw - 2rem, 5rem); /* Minimum size, scalable, maximum size */
 }
 
 h2 {
-    font-size: clamp(3rem, 5vw - 2rem, 5rem);
+    font-size: clamp(2.25rem, 5vw - 2rem, 5rem);
 }
 
 
 
 /* Title and Text Styles */
 .title {
-    font-size: clamp(3rem, 12vw - 2rem, 12rem); /* Minimum size, scalable, maximum size */
+    font-size: clamp(2.25rem, 12vw - 2rem, 10rem); /* Minimum size, scalable, maximum size */
     margin-bottom: 20px;
     font-weight: 500;
     line-height: 1;
 }
 
-.ec_text {
-    font-weight: 500;
-    font-size: 1.25vw;
-    text-align: left;
-}
+
 
 p {
     font-size: 1.1em;
