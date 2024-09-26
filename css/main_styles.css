@@ -12,7 +12,7 @@
 }
 
 html {
-    font-size: 20px;
+    font-size: 18px;
 }
 /* Body Styles */
 body {
@@ -45,7 +45,7 @@ body {
 
 
 .width_container {
-    width: 75%;
+    width: 100%;
 }
 
 /* Heading Styles */
